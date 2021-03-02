@@ -5,7 +5,8 @@ Importing the output of [v8.getHeapSnapshot](https://nodejs.org/api/v8.html#v8_v
 ## Usage
 
 ```
-cargo run -- --heap path_to_your_heapsnapshot.heapsnapshot --query 'select * from node where name="HugeObj"'
+cargo run -- --heap path_to_your_heapsnapshot.heapsnapshot \
+             --query 'select * from node where name="HugeObj"'
 ```
 
 Above command will produce a database file with name `path_to_your_heapsnapshot.db3`, you can also use other sqlite browser to open it.
