@@ -9,7 +9,7 @@ pub fn assoc_db_name(heap_file: &str) -> String {
 }
 
 pub fn setup_db_if_needed(heap_file: &str) -> bool {
-  !Path::new(heap_file).exists()
+  !Path::new(assoc_db_name(heap_file).as_str()).exists()
 }
 
 pub fn open_db(path: &str) -> Connection {
