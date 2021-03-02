@@ -1,6 +1,6 @@
 # Heapquery
 
-Importing the output of [v8.getHeapSnapshot](https://nodejs.org/api/v8.html#v8_v8_getheapsnapshot) into sqlite.
+Importing the output of [v8.getHeapSnapshot](https://nodejs.org/api/v8.html#v8_v8_getheapsnapshot) into sqlite, [demo](https://p5.music.126.net/obj/wo3DlcOGw6DClTvDisK1/7708871211/7d1e/89a3/dbdd/ed8f0fd164652919d221bda19d03cceb.gif).
 
 ## Usage
 
